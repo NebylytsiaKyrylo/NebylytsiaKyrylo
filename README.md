@@ -12,7 +12,7 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 * **Data Processing & Orchestration:** Apache Airflow.
 * **Cloud & DevOps:** Linux, Docker, Git, Software Engineering.
 
----
+
 
 ### Projects
 
@@ -31,7 +31,7 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
     * **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics
       teams.
   
----
+
 
 ### Certificates:
 * **Linux Essentials Certificate** - Linux Professional Institute (LPI)
