@@ -30,6 +30,15 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
     * **Scope**: Focus on the latest dataset only; historization of data is not required.
     * **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics
       teams.
+
+- ### [EDA and Analytics Project](https://github.com/NebylytsiaKyrylo/sql_eda_and_analytics_project.git)
+   **Objective:**
+
+   Develop SQL-based analytics to deliver detailed insights into:
+
+   * **Customer Behavior:** Understanding how customers interact with products.
+   * **Product Performance:** Identifying top-selling items and revenue drivers.
+   * **Sales Trends:** Analyzing sales growth or decline over specific periods.
   
 
 
