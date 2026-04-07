@@ -12,8 +12,6 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 * **Data Processing & Orchestration:** Apache Airflow.
 * **Cloud & DevOps:** Linux, Docker, Git, Software Engineering.
 
-
-
 ### Projects
 
 - ### [SQL Data Warehouse Project](https://github.com/NebylytsiaKyrylo/sql_data_warehouse_project)
@@ -39,6 +37,14 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
    * **Customer Behavior:** Understanding how customers interact with products.
    * **Product Performance:** Identifying top-selling items and revenue drivers.
    * **Sales Trends:** Analyzing sales growth or decline over specific periods.
+ 
+- ### [Walmart Retail Data Pipeline](https://github.com/NebylytsiaKyrylo/retail_data_pipeline_walmart)
+  **Objective:**
+  Develop a Python-based ETL pipeline to deliver clean data and aggregated insights:
+
+   - **Extract:** Connect to a local PostgreSQL database running in Docker and load a supplementary .parquet file.
+   - **Transform:** Merge datasets, handle missing values via mean imputation, extract date features, enforce schemas, and filter for high-performing sales weeks.
+   - **Load:** Export the cleaned dataset and a monthly aggregated sales report into structured CSV files for downstream analytics.
   
 
 
@@ -46,6 +52,7 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 * **Linux Essentials Certificate** - Linux Professional Institute (LPI)
 * **Data Engineer Certificate** - DataCamp (Obtained in March 2026, valid until March 2028)
 * **Associate Data Engineer Certificate** - DataCamp (Obtained in September 2025, valid until September 2027)
+* **Hackerrank SQL** Basic, Intermediate and Advanced Certificates (11 September 2025)
   
 <!-- 
 ## Get in Touch
@@ -54,4 +61,4 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 * **Email:** [Your Email Address]
  -->
 ---
-"Without data, you're just another person with an opinion." — W. Edwards Deming
+> "Without data, you're just another person with an opinion." — W. Edwards Deming
