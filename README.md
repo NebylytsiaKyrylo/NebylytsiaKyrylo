@@ -15,12 +15,8 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 ### Projects
 
 - ### [SQL Data Warehouse Project](https://github.com/NebylytsiaKyrylo/sql_data_warehouse_project)
-    **Objective:**
-  
-    Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed
+    **Objective:** Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed
   decision-making.
-  
-    **Specifications:**
     
     * **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
     * **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
@@ -30,9 +26,7 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
       teams.
 
 - ### [EDA and Analytics Project](https://github.com/NebylytsiaKyrylo/sql_eda_and_analytics_project.git)
-   **Objective:**
-
-   Develop SQL-based analytics to deliver detailed insights into:
+   **Objective:** Develop SQL-based analytics to deliver detailed insights into:
 
    * **Customer Behavior:** Understanding how customers interact with products.
    * **Product Performance:** Identifying top-selling items and revenue drivers.
