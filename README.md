@@ -39,7 +39,17 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
    - **Extract:** Connect to a local PostgreSQL database running in Docker and load a supplementary .parquet file.
    - **Transform:** Merge datasets, handle missing values via mean imputation, extract date features, enforce schemas, and filter for high-performing sales weeks.
    - **Load:** Export the cleaned dataset and a monthly aggregated sales report into structured CSV files for downstream analytics.
-  
+
+- ### [Clinical Data ETL Processor](https://github.com/NebylytsiaKyrylo/clinical-data-etl-processor.git)
+   **Objective:**
+   Create a Python-based pipeline for integrating clinical health data with supplement usage
+information. Health data from wearable devices and supplement usage logs exist in separate csv files. Clinicians and data scientists
+need to cross-reference these sources manually, which is cumbersome and error-prone.
+
+   - **Extract**: Load four CSV sources (health metrics, supplement usage, user profiles, experiments)
+   - **Transform**: Clean, validate, and standardize data (type conversions, missing value handling, unit normalization)
+   - **Merge**: Combine datasets into a single, comprehensive view
+   - **Load**: Export analysis-ready CSV for downstream analytics
 
 
 ### Certificates:
