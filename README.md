@@ -50,7 +50,14 @@ need to cross-reference these sources manually, which is cumbersome and error-pr
    - **Transform**: Clean, validate, and standardize data (type conversions, missing value handling, unit normalization)
    - **Merge**: Combine datasets into a single, comprehensive view
    - **Load**: Export analysis-ready CSV for downstream analytics
+ 
+- ### [ETL Pipeline](https://github.com/NebylytsiaKyrylo/data-engineering)
+   **Objective:**
+  Create a two-stage Extract-Transform-Load (ETL) pipeline for processing sales data using Python, Flask, and AVRO serialization.
+  The pipeline consists of two independent jobs that work together:
 
+   - Job1: Extracts sales data from an external API and saves it as JSON files
+   - Job2: Reads the JSON files created by Job1 and transforms them into AVRO format
 
 ### Certificates:
 * **Linux Essentials Certificate** - Linux Professional Institute (LPI)
