@@ -14,8 +14,15 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 
 ### Projects
 
+- ### [Pipeline ELT YouTube — Analyse des chaînes tech francophones](https://github.com/NebylytsiaKyrylo/youtube-elt-pipeline)
+  **Stack**: Python, SQL (PostgreSQL 17), Docker, Apache Airflow 3.2, MinIO (S3), Soda Core, uv, ruff, SQLFluff, GitHub Actions et Metabase.
+
+   Ce projet déploie un pipeline ELT automatisé conçu pour une agence marketing spécialisée dans la tech. L'objectif est d'analyser l'influence de 40 chaînes YouTube francophones via l'API YouTube v3 afin d'orienter les décisions de partenariats.
+
+  Pipeline ELT de bout en bout orchestré par Apache Airflow 3.2. L'infrastructure repose sur une séparation stricte des responsabilités : stockage brut JSON dans MinIO, puis transformation SQL structurée en trois couches (Staging, Core, Marts) dans PostgreSQL. Ce projet met l'accent sur l'idempotence, la gestion des conflits d'insertion (UPSERT) et la robustesse opérationnelle via Docker Compose et GitHub Actions. La fiabilité du pipeline est assurée par des portes de qualité (Quality Gates) intégrées à chaque étape du chargement.
+      
 - ### [SQL Data Warehouse Project](https://github.com/NebylytsiaKyrylo/sql_data_warehouse_project)
-    **Objective:** Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed
+  **Objective:** Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed
   decision-making.
     
     * **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
