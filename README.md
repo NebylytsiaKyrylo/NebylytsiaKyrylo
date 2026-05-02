@@ -6,11 +6,10 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 
 ### Technical Skills
 
-* **Programming Languages:** Python, SQL, Shell/Bash
-* **Data Analysis & Manipulation**: pandas, numpy, matplotlib
-* **Databases & Data Warehouses:** PostgreSQL.
-* **Data Processing & Orchestration:** Apache Airflow.
-* **Cloud & DevOps:** Linux, Docker, Git, Software Engineering.
+- **Data Engineering :** Python, SQL, Apache Airflow, Soda Core, pandas
+- **Infrastructure & DevOps :** Docker, CI/CD (GitHub Actions), Git, Linux, Shell/Bash
+- **Stockage :** PostgreSQL, MinIO (S3)
+- **Visualisation :** Metabase
 
 ### Projects
 
