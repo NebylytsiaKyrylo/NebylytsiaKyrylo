@@ -13,6 +13,15 @@ I am an aspiring Data Engineer and I am currently learning how to build scalable
 
 ### Projects
 
+- ### [En cours] - [Pipeline ELT YouTube Cloud — Analyse des chaînes tech francophones](https://github.com/NebylytsiaKyrylo/youtube_elt_pipeline_cloud)
+  **Stack**: Python, SQL (Snowflake), dbt, AWS S3, Apache Airflow 3.2 (astronomer-cosmos), Elementary, Prometheus, Grafana, Apache Superset, uv, ruff, SQLFluff, GitHub Actions.
+
+  **Suite cloud de mon précédent pipeline ELT, migrée vers un modern data stack (Snowflake, dbt, S3).**
+
+  Ce projet déploie un pipeline ELT cloud pour une agence marketing spécialisée dans la tech. L'objectif est d'analyser l'influence de 40 chaînes YouTube francophones via l'API YouTube v3 afin d'orienter les décisions de partenariats.
+
+  Architecture lakehouse hybride orchestrée par Apache Airflow : stockage brut JSON immuable dans Amazon S3, puis transformations SQL déclaratives via dbt en quatre couches (Staging, Intermediate, Core, Marts) chargées dans Snowflake. Le modèle Core suit un star schema Kimball avec deux tables de faits à grain quotidien (vidéo et chaîne), permettant l'historisation des métriques sans recourir à un SCD Type 2. La qualité des données est garantie par des tests dbt bloquants et la détection d'anomalies statistiques via Elementary. L'observabilité du pipeline (latence, taux d'échec) est exposée via Prometheus et Grafana, et les 13 marts analytiques alimentent des tableaux de bord interactifs dans Superset.
+
 - ### [Pipeline ELT YouTube — Analyse des chaînes tech francophones](https://github.com/NebylytsiaKyrylo/youtube-elt-pipeline)
   **Stack**: Python, SQL (PostgreSQL 17), Docker, Apache Airflow 3.2, MinIO (S3), Soda Core, uv, ruff, SQLFluff, GitHub Actions et Metabase.
 
